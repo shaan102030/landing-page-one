@@ -2,4 +2,463 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: transparent;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    
+    
+}
+
+.navbar ul li {
+    display: inline;
+    margin: 10px;
+    padding-right: 30px;
+    color: aliceblue;
+    
+}
+
+.navbar ul li:hover {
+    color: rgb(115, 115, 204);
+    transition: 1s ease-in-out;
+}
+
+.navbar img {
+    height: 30px;
+    margin-left: 50px;
+}
+
+/* Navbar */
+
+
+/* Hero Start */
+
+.hero {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url(./images/back4.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+.hero h1 {
+    font-size: 60px;
+    color: aliceblue;
+    margin-bottom: 30px;
+    margin-left: 50px;
+    line-height: 60px;
+    font-weight: bolder;
+}
+
+.hero span {
+    color: rgb(73, 73, 187);
+    
+}
+
+.hero p {
+    font-size: 20px;
+    color: aliceblue;
+    margin-left: 50px;
+    line-height: 30px;
+    
+}
+
+.hero button {
+    width: 120px;
+    height: 50px;
+    margin-left: 50px;
+    margin-top: 40px;
+    background-color: rgb(73, 73, 187);
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+.hero button:hover {
+    transform: scale(110%);
+    transition: 1s ease-in-out;
+}
+
+/* Hero End */
+
+/* Intro Start */
+
+.intro1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+}
+
+.intro1 p {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.intro1 span {
+    color: rgb(73, 73, 187);
+}
+
+
+.intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 400px;
+    line-height: 30px;
+    background-color: rgb(255, 255, 255);
+}
+
+.cardone {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    height: 300px;
+    margin: 50px;
+    text-align: center;
+   
+}
+
+.cardone img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 30px;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+.cardtwo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    height: 300px;
+    margin: 50px;
+    text-align: center;
+}
+
+.cardtwo img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 30px;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.cardthree {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    height: 300px;
+    margin: 50px;
+    text-align: center;
+}
+
+.cardthree img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 30px;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.cardone img:hover {
+    transform: scale(110%);
+    transition: 0.5s ease-in-out;
+}
+
+.cardtwo img:hover {
+    transform: scale(110%);
+    transition: 0.5s ease-in-out;
+}
+
+.cardthree img:hover {
+    transform: scale(110%);
+    transition: 0.5s ease-in-out;
+}
+
+
+/* Intro End */
+
+/* Info One Start */
+
+.infoone {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 600px;
+    background-color: rgb(227, 227, 227);
+}
+
+.infoimage {
+    margin: 0px;
+    margin-left: 10px;  
+}
+
+.infoimage img {
+    width: 700px;
+    height: auto;
+}
+
+.infoimage img:hover {
+    transform: scale(110%);
+    transition: 1s ease;
+}
+
+.infodetails {
+    display: flex;
+    margin: 200px;
+    flex-direction: column;
+}
+
+
+.infodetails button {
+    width: 120px;
+    height: 50px;
+    margin-top: 20px;
+    background-color: rgb(73, 73, 187);
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+.infodetails button:hover {
+    transform: scale(110%);
+    transition: 1s ease-in-out;
+    background-color:  rgb(227, 227, 227);
+    color: black;
+    border: 2px solid blue;
+}
+.infodetails h1 {
+    margin-bottom: 30px;
+}
+
+.infodetails span {
+    color: rgb(73, 73, 187);
+    background-color: rgb(218, 231, 255);
+}
+
+.infodetails p {
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+.infodetails ul li {
+    line-height: 30px;
+}
+
+/* Info One End */
+
+/* Info Two Start */
+
+.infotwo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+    height: 600px ;
+    background-color: rgb(241, 236, 236);
+}
+
+
+.infoimagetwo {
+   margin: 20px;
+   margin-right: 100px;
+}
+
+
+.infoimagetwo img {
+   
+    width: 750px;
+    height: auto;
+}
+
+.infoimagetwo img:hover {
+    transform: scale(110%);
+    transition: 1s ease;
+}
+
+.infodetailstwo {
+    display: flex;
+    flex-direction: column;
+    margin-left: 180px;
+}
+
+.infodetailstwo button {
+    width: 120px;
+    height: 50px;
+    margin-top: 20px;
+    background-color: rgb(73, 73, 187);
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+.infodetailstwo button:hover {
+    transform: scale(110%);
+    transition: 1s ease-in-out;
+    background-color:  rgb(241, 236, 236);
+    color: black;
+    border: 2px solid blue;
+}
+
+.infodetailstwo h1 {
+    margin-bottom: 30px;
+}
+
+.infodetailstwo p {
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+.infodetailstwo ul li {
+    line-height: 30px;
+}
+.infodetailstwo span {
+    color: rgb(73, 73, 187);
+    background-color: rgb(218, 231, 255);
+}
+
+/* Info Two End */
+
+/* Quote Start */
+
+.quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 440px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    flex-direction: column;
+}
+
+.quote img {
+    height: 100px;
+    width: 100px;
+    margin-bottom: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+
+.quote h4 {
+    font-weight: lighter;
+}
+
+.quote p {
+    margin-bottom: 50px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.quote span {
+    font-size: xx-large;
+}
+/* Quote End */
+
+/* Big Mac Start */
+
+.bigmac {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+    background-color: rgb(227, 227, 227);
+}
+
+.bigmac img {
+    height: 600px;
+    width: auto;
+    margin-top: 80px;
+}
+
+.bigmacinfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: rgb(227, 227, 227);
+}
+
+/* Big Mac End */
+
+/* Award Start */
+
+.awards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 300px;
+}
+
+.awards p {
+    font-size: smaller;
+}
+
+.awardone {
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.awardone i {
+   margin-bottom: 30px;
+}
+
+.awardtwo {
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.awardtwo i {
+    margin-bottom: 30px;
+ }
+
+.awardthree {
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.awardthree i {
+    margin-bottom: 30px;
+ }
+
+.awardfour {
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.awardfour i {
+    margin-bottom: 30px;
+ }
